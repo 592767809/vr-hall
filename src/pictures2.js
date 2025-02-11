@@ -4,8 +4,12 @@ export const data = [
     name: "名称",
     desc: "信息描述",
     scale: { x: 0.1, y: 0.1, z: 0.1 },
-    position: { x: 24.23375412142995, y: 2.3, z: 10.729648829537796 },
     view: { x: 24.011, y: 2.1, z: 4.379 },
+    position: {
+      x: 24.23375412142995,
+      y: 2.3,
+      z: 10.729648829537796
+    },
     id: "1",
     rotation: { x: 0, y: 0, z: 0 },
     type: "picture",
@@ -14,8 +18,8 @@ export const data = [
     url: "./assets/pictures2/2.jpg",
     name: "名称",
     desc: "信息描述",
-    view: { x: 19.101, y: 2.1, z: 6.731 },
     scale: { x: 0.1, y: 0.1, z: 0.1 },
+    view: { x: 19.101, y: 2.1, z: 6.731 },
     position: {
       x: 19.000790246881827,
       y: 2.3135021479095345,
@@ -40,7 +44,6 @@ export const data = [
     rotation: { x: 0, y: 0, z: 0 },
     type: "picture",
   },
-  // ----
   {
     url: "./assets/pictures2/4.jpg",
     name: "名称",
@@ -275,7 +278,6 @@ export const data = [
     name: "名称",
     desc: "信息描述",
     scale: { x: 0.1, y: 0.1, z: 0.1 },
-    hidden: true, // 不显示
     position: {
       x: 23.69050451666491,
       y: 2.3231474192423359,
@@ -291,7 +293,6 @@ export const data = [
     name: "名称",
     desc: "信息描述",
     scale: { x: 0.1, y: 0.1, z: 0.1 },
-    hidden: true, // 不显示
     position: {
       x: 27.89016332777171,
       y: 2.3231474192423364,

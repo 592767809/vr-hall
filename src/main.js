@@ -106,61 +106,6 @@ window.onload = function () {
     });
   });
 
-  // 加载机器人
-  vr.loadGLTF({
-    url: "./assets/robot/robot.glb",
-    position: {
-      x: 19.655541400079763,
-      y: 0.3955837972716467,
-      z: 3.3849787954383963,
-    },
-    // autoLight: true,
-    rotation: { x: 0, y: -Math.PI / 2, z: 0 },
-    scale: 0.4,
-  }).then((gltf) => {
-    gltf.scene.odata = { id: "robot" };
-    vr.addClickEvent(gltf.scene);
-    // 调用动画
-    vr.createAnimate(gltf, { animateIndex: 0, duration: 5 });
-  });
-
-  // 加载球模型
-  vr.loadGLTF({
-    scale: 0.5,
-    position: {
-      x: 0.14009586306492472,
-      y: 0.3955837972716467,
-      z: 3.3849787954383963,
-    },
-    autoLight: true,
-    url: `./assets/separate/sphere-bot-with-hydraulics_2_8_Baked_Animations.gltf`,
-  }).then((gltf) => {
-    gltf.scene.odata = { id: "ball" };
-    vr.addClickEvent(gltf.scene);
-    // 调用动画
-    vr.createAnimate(gltf, { animateIndex: 0, duration: 60 });
-  });
-
-  // // 加载房模型
-  // vr.loadGLTF({
-  //   scale: 0.4,
-  //   position: {
-  //     x: -9.697628171904498,
-  //     y: 1.6742415555214554,
-  //     z: 3.343388656678843,
-  //   },
-  //   rotation: {
-  //     x: -3.141592653589793,
-  //     y: 0.03132610956215899,
-  //     z: -3.141592653589793,
-  //   },
-  //   url: `./assets/gltfs/feichuan.glb`,
-  //   autoLight: true,
-  // }).then((gltf) => {
-  //   gltf.scene.odata = { id: "man" };
-  //   vr.addClickEvent(gltf.scene);
-  //   vr.createAnimate(gltf, { animateIndex: 0, duration: 60 });
-  // });
 
   // 加载画框数据
   vr.loadItems(data);
@@ -172,17 +117,8 @@ window.onload = function () {
   data.forEach((d) => {
     shtml += `<li class="item" data-id="${d.id}">展品:${d.id}</li>`;
   });
-  shtml += `<li class="gravity">重力感应</li>`;
 
   document.querySelector(".view").innerHTML = shtml;
-
-  document.querySelector(".gravity").addEventListener("click", () => {
-    if (document.location.protocol === "https:") {
-      vr.gravity.toggle();
-    } else {
-      alert("需要开启https");
-    }
-  });
 
   document.querySelectorAll(".item").forEach((target) => {
     target.addEventListener("click", () => {
