@@ -115,7 +115,7 @@ window.onload = function () {
   // 导览点
   let shtml = "";
   data.forEach((d) => {
-    shtml += `<li class="item" data-id="${d.id}">展品:${d.id}</li>`;
+    shtml += `<li class="item" data-id="${d.id}">${d.name}</li>`;
   });
 
   document.querySelector(".view").innerHTML = shtml;
