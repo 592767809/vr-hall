@@ -32,7 +32,7 @@ window.onload = function () {
 
   // 加载厅模型
   vr.loadHall({
-    url: "./assets/room2/dm.glb",
+    url: "/static/www/assets/room2/dm.glb",
     planeName: "dm", // plane , meishu01
     // position: { x: 2, y: -0.2, z: 2 },
     position: { x: 0, y: 0, z: 0 },
@@ -101,7 +101,7 @@ window.onload = function () {
     const info3d = gltf.scene.getObjectByName("jianjieqiang");
     info3d.material = new THREE.MeshBasicMaterial({
       color: 0xffffff,
-      map: new THREE.TextureLoader().load("./assets/pictures2/main.jpg"),
+      map: new THREE.TextureLoader().load("/static/www/assets/pictures2/main.jpg"),
       // depthFunc: 3,
     });
   });

@@ -1,7 +1,7 @@
 import * as THREE from "three";
 
 export const qiang5_MA = new THREE.TextureLoader().load(
-  "./assets/room2/textures/qiang5_MA.jpg"
+  "/static/www/assets/room2/textures/qiang5_MA.jpg"
 );
 export const qiang5_M = new THREE.MeshBasicMaterial({
   color: 0xffffff,
@@ -11,7 +11,7 @@ export const qiang5_M = new THREE.MeshBasicMaterial({
 });
 
 export const huaqiang1_MA = new THREE.TextureLoader().load(
-  "./assets/room2/textures/huaqiang1_MA.jpg"
+  "/static/www/assets/room2/textures/huaqiang1_MA.jpg"
 );
 export const huaqiang1_M = new THREE.MeshBasicMaterial({
   color: 0xffffff,
@@ -20,7 +20,7 @@ export const huaqiang1_M = new THREE.MeshBasicMaterial({
   depthFunc: 3,
 });
 export const huaqiang3_MA = new THREE.TextureLoader().load(
-  "./assets/room2/textures/huaqiang3_MA.jpg"
+  "/static/www/assets/room2/textures/huaqiang3_MA.jpg"
 );
 export const huaqiang3_M = new THREE.MeshBasicMaterial({
   color: 0xffffff,
@@ -29,7 +29,7 @@ export const huaqiang3_M = new THREE.MeshBasicMaterial({
   depthFunc: 3,
 });
 export const huaqiang2_MA = new THREE.TextureLoader().load(
-  "./assets/room2/textures/huaqiang2_MA.jpg"
+  "/static/www/assets/room2/textures/huaqiang2_MA.jpg"
 );
 export const huaqiang2_M = new THREE.MeshBasicMaterial({
   color: 0xffffff,
@@ -38,7 +38,7 @@ export const huaqiang2_M = new THREE.MeshBasicMaterial({
   depthFunc: 3,
 });
 export const qiang2_MA = new THREE.TextureLoader().load(
-  "./assets/room2/textures/qiang2_MA.jpg"
+  "/static/www/assets/room2/textures/qiang2_MA.jpg"
 );
 export const qiang2_M = new THREE.MeshBasicMaterial({
   color: 0xffffff,
@@ -47,7 +47,7 @@ export const qiang2_M = new THREE.MeshBasicMaterial({
   depthFunc: 3,
 });
 export const qiang3_MA = new THREE.TextureLoader().load(
-  "./assets/room2/textures/qiang3_MA.jpg"
+  "/static/www/assets/room2/textures/qiang3_MA.jpg"
 );
 export const qiang3_M = new THREE.MeshBasicMaterial({
   color: 0xffffff,
@@ -56,7 +56,7 @@ export const qiang3_M = new THREE.MeshBasicMaterial({
   depthFunc: 3,
 });
 export const qiang1_MA = new THREE.TextureLoader().load(
-  "./assets/room2/textures/qiang1_MA.jpg"
+  "/static/www/assets/room2/textures/qiang1_MA.jpg"
 );
 export const qiang1_M = new THREE.MeshBasicMaterial({
   color: 0xffffff,
@@ -65,7 +65,7 @@ export const qiang1_M = new THREE.MeshBasicMaterial({
   depthFunc: 3,
 });
 export const men2_MA = new THREE.TextureLoader().load(
-  "./assets/room2/textures/men2_MA.jpg"
+  "/static/www/assets/room2/textures/men2_MA.jpg"
 );
 export const men2_M = new THREE.MeshBasicMaterial({
   color: 0xffffff,
@@ -74,7 +74,7 @@ export const men2_M = new THREE.MeshBasicMaterial({
   depthFunc: 3,
 });
 export const chuanghu_MA = new THREE.TextureLoader().load(
-  "./assets/room2/textures/chuanghu_MA.jpg"
+  "/static/www/assets/room2/textures/chuanghu_MA.jpg"
 );
 export const chuanghu_M = new THREE.MeshBasicMaterial({
   color: 0xffffff,
@@ -83,7 +83,7 @@ export const chuanghu_M = new THREE.MeshBasicMaterial({
   depthFunc: 3,
 });
 export const dingtiao_MA = new THREE.TextureLoader().load(
-  "./assets/room2/textures/dingtiao_MA.jpg"
+  "/static/www/assets/room2/textures/dingtiao_MA.jpg"
 );
 export const dingtiao_M = new THREE.MeshBasicMaterial({
   color: 0xffffff,
@@ -92,7 +92,7 @@ export const dingtiao_M = new THREE.MeshBasicMaterial({
   depthFunc: 3,
 });
 export const dingbian_MA = new THREE.TextureLoader().load(
-  "./assets/room2/textures/dingbian_MA.jpg"
+  "/static/www/assets/room2/textures/dingbian_MA.jpg"
 );
 export const dingbian_M = new THREE.MeshBasicMaterial({
   color: 0xffffff,
@@ -101,7 +101,7 @@ export const dingbian_M = new THREE.MeshBasicMaterial({
   depthFunc: 3,
 });
 export const dingbaiban_MA = new THREE.TextureLoader().load(
-  "./assets/room2/textures/dingbaiban_MA.jpg"
+  "/static/www/assets/room2/textures/dingbaiban_MA.jpg"
 );
 export const dingbaiban_M = new THREE.MeshBasicMaterial({
   color: 0xffffff,
@@ -110,7 +110,7 @@ export const dingbaiban_M = new THREE.MeshBasicMaterial({
   depthFunc: 3,
 });
 export const ding_MA = new THREE.TextureLoader().load(
-  "./assets/room2/textures/ding_MA.jpg"
+  "/static/www/assets/room2/textures/ding_MA.jpg"
 );
 export const ding_M = new THREE.MeshBasicMaterial({
   color: 0xffffff,
@@ -119,7 +119,7 @@ export const ding_M = new THREE.MeshBasicMaterial({
   depthFunc: 3,
 });
 export const dizuo1_MA = new THREE.TextureLoader().load(
-  "./assets/room2/textures/dizuo1_MA.jpg"
+  "/static/www/assets/room2/textures/dizuo1_MA.jpg"
 );
 export const dizuo1_M = new THREE.MeshBasicMaterial({
   color: 0xffffff,
@@ -129,7 +129,7 @@ export const dizuo1_M = new THREE.MeshBasicMaterial({
 });
 
 export const qiang4_MA = new THREE.TextureLoader().load(
-  "./assets/room2/textures/qiang4_MA.jpg"
+  "/static/www/assets/room2/textures/qiang4_MA.jpg"
 );
 export const qiang4_M = new THREE.MeshBasicMaterial({
   color: 0xffffff,
@@ -138,7 +138,7 @@ export const qiang4_M = new THREE.MeshBasicMaterial({
   depthFunc: 3,
 });
 export const dimian2_MA = new THREE.TextureLoader().load(
-  "./assets/room2/textures/dimian2_MA.jpg"
+  "/static/www/assets/room2/textures/dimian2_MA.jpg"
 );
 
 export const dimian2_M = new THREE.MeshBasicMaterial({
@@ -153,7 +153,7 @@ export const dimian2_M = new THREE.MeshBasicMaterial({
   depthFunc: 3,
 });
 export const dimian3_MA = new THREE.TextureLoader().load(
-  "./assets/room2/textures/dimian3_MA.jpg"
+  "/static/www/assets/room2/textures/dimian3_MA.jpg"
 );
 export const dimian3_M = new THREE.MeshBasicMaterial({
   color: 0xffffff,
@@ -168,7 +168,7 @@ export const dimian3_M = new THREE.MeshBasicMaterial({
   //metalness: .2,
 });
 export const deng_MA = new THREE.TextureLoader().load(
-  "./assets/room2/textures/deng_MA.jpg"
+  "/static/www/assets/room2/textures/deng_MA.jpg"
 );
 export const deng_M = new THREE.MeshBasicMaterial({
   color: 0xffffff,
@@ -178,7 +178,7 @@ export const deng_M = new THREE.MeshBasicMaterial({
 });
 
 export const dm = new THREE.TextureLoader().load(
-  "./assets/room2/textures/hhsadff_1.jpg"
+  "/static/www/assets/room2/textures/hhsadff_1.jpg"
 );
 export const dm_M = new THREE.MeshBasicMaterial({
   // color: 0xffeb00,
@@ -191,7 +191,7 @@ export const dm_M = new THREE.MeshBasicMaterial({
 });
 
 export const wall = new THREE.TextureLoader().load(
-  "./assets/room2/textures/jianjieqiang_MA.jpg"
+  "/static/www/assets/room2/textures/jianjieqiang_MA.jpg"
 );
 export const wall_M = new THREE.MeshBasicMaterial({
   // color: 0xffeb00,
@@ -203,7 +203,7 @@ export const wall_M = new THREE.MeshBasicMaterial({
   opacity: 1,
 });
 export const baiding_MA = new THREE.TextureLoader().load(
-  "./assets/room2/textures/dingbaiban_MA.jpg"
+  "/static/www/assets/room2/textures/dingbaiban_MA.jpg"
 );
 export const baiding_M = new THREE.MeshBasicMaterial({
   color: 0xffffff,
@@ -212,7 +212,7 @@ export const baiding_M = new THREE.MeshBasicMaterial({
   depthFunc: 3,
 });
 export const cebaiqiang_MA = new THREE.TextureLoader().load(
-  "./assets/room2/textures/cebaiqiang_MA.jpg"
+  "/static/www/assets/room2/textures/cebaiqiang_MA.jpg"
 );
 export const cebaiqiang_M = new THREE.MeshBasicMaterial({
   color: 0xffffff,
@@ -231,7 +231,7 @@ export const boli1_M = new THREE.MeshStandardMaterial({
   depthFunc: 3,
 });
 export const yingmianqiang_MA = new THREE.TextureLoader().load(
-  "./assets/room2/textures/yingmianqiang_MA.jpg"
+  "/static/www/assets/room2/textures/yingmianqiang_MA.jpg"
 );
 export const yingmianqiang_M = new THREE.MeshBasicMaterial({
   color: 0xffffff,

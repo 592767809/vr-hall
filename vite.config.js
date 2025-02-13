@@ -44,5 +44,5 @@ export default defineConfig({
       },
     },
   },
-  base: "/static/", // 公共基础路径
+  base: "/static/www", // 公共基础路径
 });

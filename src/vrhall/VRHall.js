@@ -606,7 +606,7 @@ export class VRHall {
       );
       const materialBorder = new THREE.MeshBasicMaterial({
         color: item.color ? item.color : "#ffffff",
-        map: this._textLoader.load("./assets/room1/wall.png"),
+        map: this._textLoader.load("/static/www/assets/room2/wall.png"),
       });
       const material = new THREE.MeshBasicMaterial({
         color: item.color ? item.color : "#ffffff",
